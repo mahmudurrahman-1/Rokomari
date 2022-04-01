@@ -1,0 +1,252 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+html {
+  /* font-size: 10px; */
+
+  /* 10px / 16px = 0.625 = 62.5% */
+  /* Percentage of user's browser font-size setting */
+  font-size: 62.5%;
+  overflow-x: hidden;
+
+  /* Does NOT work on Safari */
+  /* scroll-behavior: smooth; */
+}
+body{
+    box-sizing: border-box;
+    font-weight: 400;
+    font-family: "Lato", sans-serif;
+    text-rendering: optimizeLegibility;
+max-width: 120rem;
+}
+
+.header{
+display: flex;
+flex-direction: column;
+position: relative;
+}
+.head-up{
+    z-index: 9999;
+background-color: rgb(253, 251, 251);
+height: 8rem;
+box-shadow: 0.5rem 1.5rem 1.5rem rgba(red, green, blue, 0.8);
+display: flex;
+align-items: center;
+justify-content: start;
+
+}
+.logoimg{
+    width: 15%;
+    opacity: 0.9;
+    flex: 0 0 25%;
+    height: 100%;
+
+}
+.logo-text{
+    font-size: 2rem;
+    color: #ff3f0f;
+    flex: 0 0 12%;
+}
+.navigations
+{
+flex: 1;
+display: flex;
+align-items: center;
+justify-content: start;
+}
+.navigations-list{
+list-style: none;
+margin-right: 1rem;
+}
+.navigations_item
+{
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: #000;
+}
+
+.btn{
+    padding: 1.5rem 3rem;
+    border: none;
+    outline: none;
+    border-radius: 10rem;
+    background-color: rgb(20, 3, 3);
+    color: white;
+    background-image: url("header/Rectangle 16@1x.png");
+    background-repeat: no-repeat;
+    height: 10%;
+    background-size:8rem 4rem;
+    overflow: hidden;
+    background-position:center right;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.btn-2{
+    background-image: url("header/Rectangle\ 8@1x.png");
+    background-color: rgb(223, 60, 11);
+    background-size:7rem 4rem;
+
+}
+
+.btn-3{
+    background-color: rgb(233, 233, 233);
+    background-size:7rem 4rem;
+    color: #000;
+    font-weight: 600;
+}
+
+.head-down{
+background-image: linear-gradient(to right bottom,rgba(0,0,0,0.78),rgba(0,0,0,0.8)), url("header/austin.png");
+height: 80vh;
+background-size: 100% 100%;
+background-position: cover;
+position:relative;
+}
+
+.hvector-1
+{
+position: absolute;
+width: 19.3%;
+}
+.hvector-2
+{
+position: absolute;
+width: 25%;
+}
+.hvector-3
+{
+    position: absolute;
+width: 31.4%;
+}
+.header-text{
+    width: 65%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.head-text-middle{
+color: #fff;
+display: flex;
+flex-direction: column;
+font-size: 5rem;
+font-weight: 600;
+
+
+}
+
+.head-text-middle-0{
+font-size: 1rem;
+font-weight: 300;
+letter-spacing: 0.8rem;
+}
+.head-text-middle-1{
+
+}
+.head-text-middle-2{
+
+}
+
+
+/******About Section */
+.AboutSection{
+    /* padding: 90px 90px; */
+    display: flex;
+    padding: 2rem 0rem;
+
+}
+
+.as-left
+{
+flex: 0 0 50%;
+padding: 1rem;
+position: relative;
+text-align: start;
+}
+.asiv-m,
+.asiv-l,
+.asi-1,
+.asi-2,
+.asi-3,
+.asi-4,
+.asi-5,
+.asi-6,
+.asi-7,
+.asi-8
+{
+    position:absolute;
+
+}
+
+.asiv-m{
+top: 30%;
+left: 40%;
+height: 70%;
+}
+.asiv-l{
+    top: 20%;
+    left: 27%;
+    height: 40%;
+}
+
+.right-asv{
+    height: 50%;
+    z-index: -10;
+    margin-left: 75%;
+    margin-top: 10%;
+}
+.asi-1{
+    top: 40%;
+    left: 22%;
+    height: 10px;
+
+}
+.asi-2{
+    top: 30%;
+    left: 25%;
+    height: 10px;
+}
+.asi-3{
+    top: 20%;
+    left: 37%;
+    height: 10px;
+}
+.asi-4{
+    top: 34%;
+    left: 43%;
+    height: 10px;
+}
+
+.asi-5{
+    top: 27%;
+    left: 57%;
+    height: 14px;
+}
+.asi-6{
+    top: 23%;
+    left: 55%;
+    height: 10px;
+}
+
+.asi-7{
+    top: 73%;
+    left: 100%;
+    height: 10px;
+
+}
+.asi-8{
+    top: 40%;
+    left: 90%;
+    height: 10px;
+}
+.as-right
+{
+flex: 1;
+padding: 1rem;
+position: relative;
+}
