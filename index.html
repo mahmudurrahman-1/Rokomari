@@ -9,19 +9,40 @@
   
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap"
         rel="stylesheet">
-    <link
-
+    <link rel="stylesheet" type="text/css" href="responsive.css">
+<script src="index.js"></script>
 </head>
 
 <body>
-
+   
    <!--Header Section-->
 
     <header class="header">
 <div class="head-up">
     <img src="header/Vector 5@1x.png" alt="1" class="logoimg" />
-    <h3 class="logo-text">Company</h3>
-    <ul class="navigations">
+    <h3 class="logo-text" style="margin-right: auto;">Company</h3>
+    
+    <div class="nav">
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#">Home</a>
+            <a href="#">Pages</a>
+            <a href="#">Services</a>
+            <a href="#">Blog</a>
+            <a href="#">About Us</a>
+            <a href="#">Contacts</a>
+            <button class="btn btn-1">
+                Consulting Now
+            </button>
+          </div>
+          
+          <!-- Use any element to open the sidenav -->
+          <span onclick="openNav()"><img class="icon-menu-img" src="header/menu-svgrepo-com.svg" alt="menu"></span>
+          
+
+    </div>
+    <ul class="navigations responsive-nav" >
+
         <li class="navigations-list">
             <a href="#" class="navigations_item">Home</a>
         </li>
@@ -180,7 +201,7 @@
     </h2>
     <div class="main-header-button">
 
-    <button class="btn btn-2">
+    <button class="trdbutton btn btn-2">
         Need Any Project
         </button>
     </div>
@@ -411,7 +432,8 @@
                     <div class="mask half">
                       <div class="fill"></div>
                     </div>
-                    <div class="inside-circle"> </div>
+                    
+                     <div class="inside-circle"><span>Business Strategy</span> </div>
                   </div>
                   <h3 class="bs-head">Business Strategy</h3>
 
@@ -425,7 +447,7 @@
                     <div class="mask half">
                       <div class="fill"></div>
                     </div>
-                    <div class="inside-circle"> </div>
+                    <div class="inside-circle"><span>Finencial Planning</span> </div>
                   </div>
                   <h3 class="bs-head">Finencial Planning</h3>
                 </div>
@@ -437,7 +459,7 @@
                     <div class="mask half">
                       <div class="fill"></div>
                     </div>
-                    <div class="inside-circle"> </div>
+                    <div class="inside-circle"><span>Marketing Strategy</span> </div>
                   </div>
                   <h3 class="bs-head">Marketing Strategy</h3>
 
@@ -451,7 +473,7 @@
                     <div class="mask half">
                       <div class="fill"></div>
                     </div>
-                    <div class="inside-circle"> </div>
+                    <div class="inside-circle"><span>Relationship Building</span> </div>
                   </div>
                   <h3 class="bs-head">Relationship Building</h3>
 
