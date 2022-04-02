@@ -133,7 +133,67 @@ flex-direction: column;
     font-size: 1.8rem;
 }
 
+.advisor-section{
+    flex-direction: column;
+}
+.advisor-part-1 {
+    margin-bottom: 3rem;
+}
+.jakefig {
+    height: 150px;
+    width: 150px;
+    
+}
+.fig-cap {
+   
+    font-size: 2.5rem;
+}
+.adv-span-2 {
+    font-size: 2.5rem;
+}
+.rightarr,.leftarr{
+    font-size: 4.5rem;
+}
+.article-text-1{
+font-size: 2.6rem;
+}
 
+.article-text-2{
+    font-size: 2.5rem;
+
+}
+.article-text-3{
+    font-size: 2.6rem;
+
+}
+
+.lmbtn{
+    font-size: 2rem;
+}
+.footer-h, .footer-b {
+   
+    
+    flex-direction: column;
+    align-items: flex-start;
+}
+.footer-h-1{
+    margin-bottom: 2rem;
+}
+.footer-h-text-2,.footlink{
+    font-size: 1.7rem;
+}
+
+.txt-1,.txt-2 a{
+    font-size: 2.2rem;
+}
+.six-icons{
+    flex-direction: column;
+    
+}
+.si-1 {
+
+    margin-bottom: 3rem;
+}
 
 }
 
@@ -193,7 +253,27 @@ flex-direction: column;
   @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
-    
+    .six-l-img{
+        height: 40%;
+    }
+
+    .six-l-img-1{
+        height: 25%;
+    }
+
+    .six-l-img-2{
+        height: 25%;
+    }
+    .six-l-img-3{
+        height: 10%;
+        top: 56.5%;
+    }
+    .six-l-img-4{
+        top: 65%;
+    }
+
+
+
   }
 
 .icon-menu-img{

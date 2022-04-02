@@ -6,478 +6,498 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="index.css">
-  
+
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="responsive.css">
-<script src="index.js"></script>
+    <link rel="stylesheet" type="text/css" href="keyframes.css">
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+
+    <script src="index.js" type="text/javascript"></script>
+    <script src="jquery.js" type="text/javascript"></script>
+
 </head>
 
 <body>
-   
-   <!--Header Section-->
+
+    <!--Header Section-->
 
     <header class="header">
-<div class="head-up">
-    <img src="header/Vector 5@1x.png" alt="1" class="logoimg" />
-    <h3 class="logo-text" style="margin-right: auto;">Company</h3>
-    
-    <div class="nav">
-        <div id="mySidenav" class="sidenav">
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <a href="#">Home</a>
-            <a href="#">Pages</a>
-            <a href="#">Services</a>
-            <a href="#">Blog</a>
-            <a href="#">About Us</a>
-            <a href="#">Contacts</a>
-            <button class="btn btn-1">
-                Consulting Now
-            </button>
-          </div>
-          
-          <!-- Use any element to open the sidenav -->
-          <span onclick="openNav()"><img class="icon-menu-img" src="header/menu-svgrepo-com.svg" alt="menu"></span>
-          
+        <div class="head-up">
+            <img src="header/Vector 5@1x.png" alt="1" class="logoimg" />
+            <h3 class="logo-text" style="margin-right: auto;">Company</h3>
 
-    </div>
-    <ul class="navigations responsive-nav" >
+            <div class="nav">
+                <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="#">Home</a>
+                    <a href="#">Pages</a>
+                    <a href="#">Services</a>
+                    <a href="#">Blog</a>
+                    <a href="#">About Us</a>
+                    <a href="#">Contacts</a>
+                    <button class="btn btn-1">
+                        Consulting Now
+                    </button>
+                </div>
 
-        <li class="navigations-list">
-            <a href="#" class="navigations_item">Home</a>
-        </li>
-        <li class="navigations-list">
-            <a href="#" class="navigations_item">Pages</a>
-        </li>
-        <li class="navigations-list">
-            <a href="#" class="navigations_item">Services</a>
-        </li>
-        <li class="navigations-list">
-            <a href="#" class="navigations_item">Blog</a>
-        </li>
-        <li class="navigations-list">
-            <a href="#" class="navigations_item">About Us</a>
-        </li>
-        <li class="navigations-list">
-            <a href="#" class="navigations_item">Contacts</a>
-        </li>
-        <li class="navigations-list">
-            <button class="btn btn-1">
-                Consulting Now
-            </button>
-        </li>
-    </ul>
-   
-   
-</div>
-<div class="head-down">
-    <div class="image-vectors">
-        <img src="header/Vector 2@1x.png" alt="3" class="hvector-1">
-        <img src="header/Vector 3@1x.png" alt="4" class="hvector-2">
-        <img src="header/Vector 4@1x.png" alt="5" class="hvector-3">
+                <!-- Use any element to open the sidenav -->
+                <span onclick="openNav()"><img class="icon-menu-img" src="header/menu-svgrepo-com.svg"
+                        alt="menu"></span>
 
 
-    </div>
-<div class="header-text">
+            </div>
+            <ul class="navigations responsive-nav">
 
-    <h2 class="head-text-middle">
-        <span class="head-text-middle-0">Business & Consulting</span>
-        <span class="head-text-middle-1">Making Difference</span> 
-       <span class="head-text-middle-2">Growth Your Business</span> 
-       <span class="head-text-middle-2">With Mordern Ideas</span> 
-    
-    </h2>
-    <div class="main-header-button">
-        <button class="btn btn-2">
-         Get Started Now
-        </button>
-        <button class="btn btn-3">
-            Our Services
-           </button>
-    </div>
-   
-</div>
+                <li class="navigations-list">
+                    <a href="#" class="navigations_item">Home</a>
+                </li>
+                <li class="navigations-list">
+                    <a href="#" class="navigations_item">Pages</a>
+                </li>
+                <li class="navigations-list">
+                    <a href="#" class="navigations_item">Services</a>
+                </li>
+                <li class="navigations-list">
+                    <a href="#" class="navigations_item">Blog</a>
+                </li>
+                <li class="navigations-list">
+                    <a href="#" class="navigations_item">About Us</a>
+                </li>
+                <li class="navigations-list">
+                    <a href="#" class="navigations_item">Contacts</a>
+                </li>
+                <li class="navigations-list">
+                    <button class="btn btn-1">
+                        Consulting Now
+                    </button>
+                </li>
+            </ul>
 
 
-</div>
-      </header>
+        </div>
+        <div class="head-down">
+            <div class="image-vectors">
+                <img src="header/Vector 2@1x.png" alt="3" class="hvector-1">
+                <img src="header/Vector 3@1x.png" alt="4" class="hvector-2">
+                <img src="header/Vector 4@1x.png" alt="5" class="hvector-3">
+
+
+            </div>
+            <div class="header-text">
+
+                <h2 class="head-text-middle">
+                    <span class="head-text-middle-0">Business & Consulting</span>
+                    <span class="head-text-middle-1">Making Difference</span>
+                    <span class="head-text-middle-2">Growth Your Business</span>
+                    <span class="head-text-middle-2">With Mordern Ideas</span>
+
+                </h2>
+                <div class="main-header-button">
+                    <button class="btn btn-2">
+                        Get Started Now
+                    </button>
+                    <button class="btn btn-3">
+                        Our Services
+                    </button>
+                </div>
+
+            </div>
+
+
+        </div>
+    </header>
     <main>
         <!--About Section-->
 
-<section class="AboutSection">
-<div class="as-left">
-<div class="aboutimage">
-    <img src="about/OBJECTS@1x.png" alt="icon-11" class="asiv-m">
-    <img src="about/Vector 49.png" alt="kjjj" class="right-asv">
-    <img src="about/Vector 48@1x.png" alt="icon-9" class="asiv-l">
-    <img src="about/Union@1x-1.png" alt="icon-0" class="asi-0">
+        <section class="AboutSection">
+            <div class="as-left">
+                <div class="aboutimage">
+                    <img src="about/OBJECTS@1x.png" alt="icon-11" class="asiv-m magnet">
+                    <img src="about/Vector 49.png" alt="kjjj" class="right-asv">
+                    <img src="about/Vector 48@1x.png" alt="icon-9" class="asiv-l">
+                    <img src="about/Union@1x-1.png" alt="icon-0" class="asi-0">
 
-    <img src="about/Union@1x-1.png" alt="icon-1" class="asi-1">
-    <img src="about/Union@1x-2.png" alt="icon-2" class="asi-2">
-    <img src="about/Union@1x-3.png" alt="icon-3" class="asi-3">
-    <img src="about/Union@1x-4.png" alt="icon-4" class="asi-4">
-    <img src="about/Union@1x-5.png" alt="icon-5" class="asi-5">
-    <img src="about/Union@1x-6.png" alt="icon-6" class="asi-6">
-    <img src="about/Union@1x-7.png" alt="icon-7" class="asi-7">
-    <img src="about/Union@1x-8.png" alt="icon-8" class="asi-8">
+                    <img src="about/Union@1x-1.png" alt="icon-1" class="asi-1">
+                    <img src="about/Union@1x-2.png" alt="icon-2" class="asi-2">
+                    <img src="about/Union@1x-3.png" alt="icon-3" class="asi-3">
+                    <img src="about/Union@1x-4.png" alt="icon-4" class="asi-4">
+                    <img src="about/Union@1x-5.png" alt="icon-5" class="asi-5">
+                    <img src="about/Union@1x-6.png" alt="icon-6" class="asi-6">
+                    <img src="about/Union@1x-7.png" alt="icon-7" class="asi-7">
+                    <img src="about/Union@1x-8.png" alt="icon-8" class="asi-8">
 
-</div>
+                </div>
 
 
-</div>
-<div class="as-right">
-    <h2 class="about-text">
-        <span class="about-text-1">&mdash; &nbsp; About Us</span>
-        <span class="about-text-2">Professional Business Guidence Agency</span>
-        <span class="about-text-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus in a cumque laudantium aliquid, sint, temporibus, odit corrupti culpa laboriosam magni aperiam voluptate debitis commodi eaque tempore repellendus modi quo!</span>
-        <span class="about-text-4">Unknown Printer Book a Gallary of type and scramblled it to make a type specimen book</span>
-    </h2>
-<ul class="about-items">
-    <li class="about-list">Business and Consulting Agency</li>
-    <li class="about-list">Business and Consulting Agency</li>
-</ul>
-<div class="main-header-button">
-
-<button class="btn btn-2">
-    Learn More
-   </button>
-</div>
-</div>
-
-</section>
-<!--Features Section-->
-
-<section class="section-features">
-<div class="features-1">
-    <div class="image-vectors">
-        <img src="features/Vector 6@1x.png" alt="5" class="hvector-1 fvectors-1">
-        <img src="features/Vector 7@1x.png" alt="6" class="hvector-2 fvectors-2">
-
-    </div>
-    <h2 class="features-text">
-        <span class="features-text-1">&mdash; &nbsp; Company Services&nbsp; &mdash;</span>
-        <span class="features-text-2">We Provide Most Exclusive</span>
-        <span class="features-text-3">Service For Business</span>
-
-        </h2>
-        <div class="features">
-            <div class="feature-box">
-                <img src="features/Vector@1x.png" class="feature-box__icon icon-basic-compass"></i>
-                <h3 class="heading-tertiary u-margin-bottom-small">Creative Idea</h3>
-                <p class="feature-box__text">
-                    It is a long established fact that a reader will be distracted
-                </p>
-                <a href="#" class="right-arr">&rarr;</a>
             </div>
-            <div class="feature-box feature-box-2">
-                <img src="features/Vector@1x-1.png" class="feature-box__icon icon-basic-compass"></i>
-                <h3 class="heading-tertiary u-margin-bottom-small">Business Strategy</h3>
-                <p class="feature-box__text">
-                    It is a long established fact that a reader will be distracted
-                </p>
-                <a href="#" class="right-arr">&rarr;</a>
+            <div class="as-right">
+                <h2 class="about-text">
+                    <span class="about-text-1">&mdash; &nbsp; About Us</span>
+                    <span class="about-text-2">Professional Business Guidence Agency</span>
+                    <span class="about-text-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus in a
+                        cumque laudantium aliquid, sint, temporibus, odit corrupti culpa laboriosam magni aperiam
+                        voluptate debitis commodi eaque tempore repellendus modi quo!</span>
+                    <span class="about-text-4">Unknown Printer Book a Gallary of type and scramblled it to make a type
+                        specimen book</span>
+                </h2>
+                <ul class="about-items">
+                    <li class="about-list">Business and Consulting Agency</li>
+                    <li class="about-list">Business and Consulting Agency</li>
+                </ul>
+                <div class="main-header-button">
+
+                    <button class="btn btn-2">
+                        Learn More
+                    </button>
+                </div>
             </div>
-            <div class="feature-box">
-                <img src="features/Vector@1x-2.png" class="feature-box__icon icon-basic-compass"></i>
-                <h3 class="heading-tertiary u-margin-bottom-small">Relationship Buildup</h3>
-                <p class="feature-box__text">
-                    It is a long established fact that a reader will be distracted
-                </p>
-                <a href="#" class="right-arr">&rarr;</a>
+
+        </section>
+        <!--Features Section-->
+
+        <section class="section-features">
+            <div class="features-1">
+                <div class="image-vectors">
+                    <img src="features/Vector 6@1x.png" alt="5" class="hvector-1 fvectors-1">
+                    <img src="features/Vector 7@1x.png" alt="6" class="hvector-2 fvectors-2">
+
+                </div>
+                <h2 class="features-text">
+                    <span class="features-text-1">&mdash; &nbsp; Company Services&nbsp; &mdash;</span>
+                    <span class="features-text-2">We Provide Most Exclusive</span>
+                    <span class="features-text-3">Service For Business</span>
+
+                </h2>
+                <div class="features">
+                    <div class="feature-box feature-box-a">
+                        <img src="features/Vector@1x.png" class="feature-box__icon icon-basic-compass"></i>
+                        <h3 class="heading-tertiary u-margin-bottom-small">Creative Idea</h3>
+                        <p class="feature-box__text">
+                            It is a long established fact that a reader will be distracted
+                        </p>
+                        <a href="#" class="right-arr">&rarr;</a>
+                    </div>
+                    <div class="feature-box feature-box-2">
+                        <img src="features/Vector@1x-1.png" class="feature-box__icon icon-basic-compass"></i>
+                        <h3 class="heading-tertiary u-margin-bottom-small">Business Strategy</h3>
+                        <p class="feature-box__text">
+                            It is a long established fact that a reader will be distracted
+                        </p>
+                        <a href="#" class="right-arr">&rarr;</a>
+                    </div>
+                    <div class="feature-box feature-box-c">
+                        <img src="features/Vector@1x-2.png" class="feature-box__icon icon-basic-compass"></i>
+                        <h3 class="heading-tertiary u-margin-bottom-small">Relationship Buildup</h3>
+                        <p class="feature-box__text">
+                            It is a long established fact that a reader will be distracted
+                        </p>
+                        <a href="#" class="right-arr">&rarr;</a>
+                    </div>
+                </div>
             </div>
-        </div>
-</div>
-</section>
-<!--Video Section-->
-<section class="video-section">
-<div class="video-details">
-    <h2 class="video-text">
-        <span class="video-text-1">&mdash; Watch Videos</span>
-        <span class="video-text-2">Exclusive Video Presentation</span>
-        <span class="video-text-3">About Recent Projects</span>
-        <span class="video-text-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br> Tenetur fugiat explicabo corrupti tempora nisi. </span>
+        </section>
+        <!--Video Section-->
+        <section class="video-section">
+            <div class="video-details">
+                <h2 class="video-text">
+                    <span class="video-text-1">&mdash; Watch Videos</span>
+                    <span class="video-text-2">Exclusive Video Presentation</span>
+                    <span class="video-text-3">About Recent Projects</span>
+                    <span class="video-text-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br> Tenetur
+                        fugiat explicabo corrupti tempora nisi. </span>
 
 
-    </h2>
-    <div class="main-header-button">
+                </h2>
+                <div class="main-header-button">
 
-    <button class="trdbutton btn btn-2">
-        Need Any Project
-        </button>
-    </div>
-</div>
-<div class="play-button">
-    <div class="first-circle">
-        <div class="second-circle">
-        
-        </div>
-    </div>
-</div>
+                    <button class="trdbutton btn btn-2">
+                        Need Any Project
+                    </button>
+                </div>
+            </div>
+            <div class="play-button">
+                <div class="first-circle">
+                    <div class="second-circle">
 
-</section>
-<section class="core-features-section">
-    <div class="core-features-head">
-        <h2 class="features-text">
-            <span class="features-text-1">&mdash; &nbsp; Our Core Features &nbsp; &mdash;</span>
-            <span class="features-text-2">We Are Specialist For Many</span>
-            <span class="features-text-3">Business Solutions</span>
-    
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section class="core-features-section">
+            <div class="core-features-head">
+                <h2 class="features-text">
+                    <span class="features-text-1">&mdash; &nbsp; Our Core Features &nbsp; &mdash;</span>
+                    <span class="features-text-2">We Are Specialist For Many</span>
+                    <span class="features-text-3">Business Solutions</span>
+
+                </h2>
+                <div class="all-cores">
+                    <div class="core core-1">
+                        <img src="corefeatures/Vector 10@1x.png" alt="vec core" class="core-vector-1">
+                        <img src="corefeatures/Vector 11@1x.png" alt="vec core" class="core-vector-2">
+                        <h3 class="core-texts">
+                            <span class="core-texts-1"><a href="#">&rarr;</a></span>
+                            <span class="core-texts-2">Free Consulting</span>
+                            <span class="core-texts-3">Join Us For Consultations</span>
+                        </h3>
+                    </div>
+                    <div class="core core-2">
+                        <img src="corefeatures/Vector 10@1x.png" alt="vec core" class="core-vector-1">
+                        <img src="corefeatures/Vector 11@1x.png" alt="vec core" class="core-vector-2">
+                        <h3 class="core-texts">
+                            <span class="core-texts-1"><a href="#">&rarr;</a></span>
+                            <span class="core-texts-2">Free Consulting</span>
+                            <span class="core-texts-3">Join Us For Consultations</span>
+                        </h3>
+                    </div>
+                    <div class="core core-3">
+                        <img src="corefeatures/Vector 10@1x.png" alt="vec core" class="core-vector-1">
+                        <img src="corefeatures/Vector 11@1x.png" alt="vec core" class="core-vector-2">
+                        <h3 class="core-texts">
+                            <span class="core-texts-1"><a href="#">&rarr;</a></span>
+                            <span class="core-texts-2">Free Consulting</span>
+                            <span class="core-texts-3">Join Us For Consultations</span>
+                        </h3>
+                    </div>
+                    <div class="core core-4">
+                        <img src="corefeatures/Vector 10@1x.png" alt="vec core" class="core-vector-1">
+                        <img src="corefeatures/Vector 11@1x.png" alt="vec core" class="core-vector-2">
+                        <h3 class="core-texts">
+                            <span class="core-texts-1"><a href="#">&rarr;</a></span>
+                            <span class="core-texts-2">Free Consulting</span>
+                            <span class="core-texts-3">Join Us For Consultations</span>
+                        </h3>
+                    </div>
+                    <div class="core core-5">
+                        <img src="corefeatures/Vector 10@1x.png" alt="vec core" class="core-vector-1">
+                        <img src="corefeatures/Vector 11@1x.png" alt="vec core" class="core-vector-2">
+                        <h3 class="core-texts">
+                            <span class="core-texts-1"><a href="#">&rarr;</a></span>
+                            <span class="core-texts-2">Free Consulting</span>
+                            <span class="core-texts-3">Join Us For Consultations</span>
+                        </h3>
+                    </div>
+                    <div class="core core-6">
+                        <img src="corefeatures/Vector 10@1x.png" alt="vec core" class="core-vector-1">
+                        <img src="corefeatures/Vector 11@1x.png" alt="vec core" class="core-vector-2">
+                        <h3 class="core-texts">
+                            <span class="core-texts-1"><a href="#">&rarr;</a></span>
+                            <span class="core-texts-2">Free Consulting</span>
+                            <span class="core-texts-3">Join Us For Consultations</span>
+                        </h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-six">
+
+            <div class="section-sixer">
+
+                <div class="s-left">
+                    <div class="simage">
+                        <img src="six/Background_Complete@1x.png" alt="icon-11" class="six-l-img">
+                        <img src="six/Screens@1x.png" alt="icon-101" class="six-l-img six-l-img-1">
+                        <img src="six/Character@1x.png" alt="icon-111" class="six-l-img six-l-img-2">
+                        <img src="six/Plant@1x.png" alt="icon-0" class="six-l-img six-l-img-3">
+                        <img src="six/Desk@1x.png" alt="icon-0000" class="six-l-img six-l-img-4">
+
+                    </div>
+
+
+                </div>
+                <div class="as-right">
+                    <h2 class="about-text six-text">
+                        <span class="about-text-1">&mdash; &nbsp; What We Do</span>
+                        <span class="about-text-2 six-text-2">Why Choose Our Business Agency</span>
+                        <span class="about-text-3 six-text-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            Minus in a cumque laudantium aliquid, sint, temporibus, odit corrupti culpa laboriosam magni
+                            aperiam voluptate debitis commodi eaque tempore repellendus modi quo!</span>
+                    </h2>
+                    <ul class="about-items six-items">
+                        <li class="about-list six-items-1">Business and Consulting Agency</li>
+                        <li class="about-list six-items-1">Business and Consulting Agency</li>
+                        <li class="about-list six-items-1">Business and Consulting Agency</li>
+
+                    </ul>
+                    <div class="main-header-button">
+
+                        <button class="btn btn-2">
+                            Join With Us
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="six-icons">
+                <div class="si-1">
+                    <img src="six/icons/Group@1x.png" alt="i1" class="sico-1">
+                    <h3 class="sit"><span class="count">3568</span> </h3>
+                    <p class="sip">Project Compiler</p>
+                </div>
+                <div class="si-1">
+                    <img src="six/icons/Group@1x-1.png" alt="i2" class="sico-1">
+                    <h3 class="sit"><span class="count">3568</span> </h3>
+                    <p class="sip">Satisfied Clients</p>
+                </div>
+                <div class="si-1">
+                    <img src="six/icons/Group@1x-2.png" alt="i2" class="sico-1">
+                    <h3 class="sit"><span class="count">3568</span> </h3>
+                    <p class="sip">International Awards</p>
+                </div>
+                <div class="si-1">
+                    <img src="six/icons/Group@1x-3.png" alt="i2" class="sico-1">
+                    <h3 class="sit"><span class="count">3568</span> </h3>
+                    <p class="sip">Expert Team Members</p>
+                </div>
+            </div>
+        </section>
+        <section class="team-section">
+            <h2 class="features-text team-text">
+                <span class="features-text-1">&mdash; &nbsp; Meet Our Advisors &nbsp; &mdash;</span>
+                <span class="features-text-2">We Have An Excusive</span>
+                <span class="features-text-3">Team Members</span>
+
             </h2>
-         <div class="all-cores">
-             <div class="core core-1">
-<img src="corefeatures/Vector 10@1x.png" alt="vec core" class="core-vector-1">
-<img src="corefeatures/Vector 11@1x.png" alt="vec core" class="core-vector-2">
-<h3 class="core-texts">
-    <span class="core-texts-1"><a href="#">&rarr;</a></span>
-    <span class="core-texts-2">Free Consulting</span>
-    <span class="core-texts-3">Join Us For Consultations</span>
-</h3>
-             </div>
-             <div class="core core-2">
-                <img src="corefeatures/Vector 10@1x.png" alt="vec core" class="core-vector-1">
-                <img src="corefeatures/Vector 11@1x.png" alt="vec core" class="core-vector-2">
-                <h3 class="core-texts">
-                    <span class="core-texts-1"><a href="#">&rarr;</a></span>
-                    <span class="core-texts-2">Free Consulting</span>
-                    <span class="core-texts-3">Join Us For Consultations</span>
-                </h3>
-            </div>
-            <div class="core core-3">
-                <img src="corefeatures/Vector 10@1x.png" alt="vec core" class="core-vector-1">
-                <img src="corefeatures/Vector 11@1x.png" alt="vec core" class="core-vector-2">
-                <h3 class="core-texts">
-                    <span class="core-texts-1"><a href="#">&rarr;</a></span>
-                    <span class="core-texts-2">Free Consulting</span>
-                    <span class="core-texts-3">Join Us For Consultations</span>
-                </h3>
-            </div>
-            <div class="core core-4">
-                <img src="corefeatures/Vector 10@1x.png" alt="vec core" class="core-vector-1">
-                <img src="corefeatures/Vector 11@1x.png" alt="vec core" class="core-vector-2">
-                <h3 class="core-texts">
-                    <span class="core-texts-1"><a href="#">&rarr;</a></span>
-                    <span class="core-texts-2">Free Consulting</span>
-                    <span class="core-texts-3">Join Us For Consultations</span>
-                </h3>
-            </div>
-            <div class="core core-5">
-                <img src="corefeatures/Vector 10@1x.png" alt="vec core" class="core-vector-1">
-                <img src="corefeatures/Vector 11@1x.png" alt="vec core" class="core-vector-2">
-                <h3 class="core-texts">
-                    <span class="core-texts-1"><a href="#">&rarr;</a></span>
-                    <span class="core-texts-2">Free Consulting</span>
-                    <span class="core-texts-3">Join Us For Consultations</span>
-                </h3>
-            </div>
-            <div class="core core-6">
-                <img src="corefeatures/Vector 10@1x.png" alt="vec core" class="core-vector-1">
-                <img src="corefeatures/Vector 11@1x.png" alt="vec core" class="core-vector-2">
-                <h3 class="core-texts">
-                    <span class="core-texts-1"><a href="#">&rarr;</a></span>
-                    <span class="core-texts-2">Free Consulting</span>
-                    <span class="core-texts-3">Join Us For Consultations</span>
-                </h3>
-            </div>
-         </div>   
-    </div>
-</section>
-<section class="section-six">
+            <div class="teams-mems">
+                <div class="team-mem-1">
+                    <div class="six-icons team-users">
+                        <div class="si-1 tu">
+                            <a href="https://www.facebook.com" target="_blank"> <img src="team/Vector@1x.png" alt="pip"
+                                    class="team-vector tv-0">
+                            </a>
 
-<div class="section-sixer">
+                            <img src="team/Vector 24@1x.png" alt="pip" class="team-vector tv-1">
+                            <img src="team/Vector 25@1x.png" alt="pip" class="team-vector tv-2">
 
-    <div class="s-left">
-    <div class="simage">
-        <img src="six/Background_Complete@1x.png" alt="icon-11" class="six-l-img">
-        <img src="six/Screens@1x.png" alt="icon-101" class="six-l-img six-l-img-1"> 
-        <img src="six/Character@1x.png" alt="icon-111" class="six-l-img six-l-img-2">
-        <img src="six/Plant@1x.png" alt="icon-0" class="six-l-img six-l-img-3">
-        <img src="six/Desk@1x.png" alt="icon-0000" class="six-l-img six-l-img-4">
-    
-    </div>
-    
-    
-    </div>
-    <div class="as-right">
-        <h2 class="about-text six-text">
-            <span class="about-text-1">&mdash; &nbsp; What We Do</span>
-            <span class="about-text-2 six-text-2">Why Choose Our Business Agency</span>
-            <span class="about-text-3 six-text-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus in a cumque laudantium aliquid, sint, temporibus, odit corrupti culpa laboriosam magni aperiam voluptate debitis commodi eaque tempore repellendus modi quo!</span>
-        </h2>
-    <ul class="about-items six-items">
-        <li class="about-list six-items-1">Business and Consulting Agency</li>
-        <li class="about-list six-items-1">Business and Consulting Agency</li>
-        <li class="about-list six-items-1">Business and Consulting Agency</li>
+                            <img src="team/josep.png" alt="i1" class="sico-1 tui">
+                            <img src="team/Vector 26.png" alt="pip" class="team-vector tv-00">
 
-    </ul>
-    <div class="main-header-button">
-    
-    <button class="btn btn-2">
- Join With Us
-    </button>
-    </div>
-    </div>
-</div>
-<div class="six-icons">
-    <div class="si-1">
-        <img src="six/icons/Group@1x.png" alt="i1" class="sico-1">
-    <h3 class="sit">3568</h3>
-    <p class="sip">Project Compiler</p>
-    </div>
-    <div class="si-1">
-        <img src="six/icons/Group@1x-1.png" alt="i2" class="sico-1">
-    <h3 class="sit">3568</h3>
-    <p class="sip">Satisfied Clients</p>
-    </div>
-    <div class="si-1">
-        <img src="six/icons/Group@1x-2.png" alt="i2" class="sico-1">
-    <h3 class="sit">3568</h3>
-    <p class="sip">International Awards</p>
-    </div>
-    <div class="si-1">
-        <img src="six/icons/Group@1x-3.png" alt="i2" class="sico-1">
-    <h3 class="sit">3568</h3>
-    <p class="sip">Expert Team Members</p>
-    </div>
-</div>
-    </section>
-<section class="team-section">
-    <h2 class="features-text team-text">
-        <span class="features-text-1">&mdash; &nbsp; Meet Our Advisors &nbsp; &mdash;</span>
-        <span class="features-text-2">We Have An Excusive</span>
-        <span class="features-text-3">Team Members</span>
+                            <h3 class="sit tis">UserName</h3>
+                            <p class="sip pis">Business Developer</p>
+                        </div>
+                        <div class="si-1 tu">
+                            <a href="https://www.facebook.com" target="_blank"> <img src="team/Vector@1x.png" alt="pip"
+                                    class="team-vector tv-0">
+                            </a>
+                            <img src="team/Vector 24@1x.png" alt="pip" class="team-vector tv-1">
+                            <img src="team/Vector 25@1x.png" alt="pip" class="team-vector tv-2">
 
-    </h2>
-    <div class="teams-mems">
-        <div class="team-mem-1">
-            <div class="six-icons team-users">
-                <div class="si-1 tu">
+                            <img src="team/jake.png" alt="i1" class="sico-1 tui">
+                            <img src="team/Vector 26.png" alt="pip" class="team-vector tv-000">
 
-                    <img src="team/Vector@1x.png" alt="pip" class="team-vector tv-0" >
+                            <h3 class="sit tis">UserName</h3>
+                            <p class="sip pis">Business Developer</p>
+                        </div>
+                        <div class="si-1 tu">
+                            <a href="https://www.facebook.com" target="_blank"> <img src="team/Vector@1x.png" alt="pip"
+                                    class="team-vector tv-0">
+                            </a>
+                            <img src="team/Vector 24@1x.png" alt="pip" class="team-vector tv-1">
+                            <img src="team/Vector 25@1x.png" alt="pip" class="team-vector tv-2">
 
-                    <img src="team/Vector 24@1x.png" alt="pip" class="team-vector tv-1" >
-                    <img src="team/Vector 25@1x.png" alt="pip" class="team-vector tv-2" >
+                            <img src="team/ben.png" alt="i1" class="sico-1 tui">
+                            <img src="team/Vector 26.png" alt="pip" class="team-vector tv-000">
 
-                    <img src="team/josep.png" alt="i1" class="sico-1 tui">
-                    <img src="team/Vector 26.png" alt="pip" class="team-vector tv-00" >
+                            <h3 class="sit tis">UserName</h3>
+                            <p class="sip pis">Business Developer</p>
+                        </div>
+                        <div class="si-1 tu">
+                            <a href="https://www.facebook.com" target="_blank"> <img src="team/Vector@1x.png" alt="pip"
+                                    class="team-vector tv-0">
+                            </a>
+                            <img src="team/Vector 24@1x.png" alt="pip" class="team-vector tv-1">
+                            <img src="team/Vector 25@1x.png" alt="pip" class="team-vector tv-2">
 
-                    <h3 class="sit tis">UserName</h3>
-                <p class="sip pis">Business Developer</p>
+                            <img src="team/christi.png" alt="i1" class="sico-1 tui">
+                            <img src="team/Vector 26.png" alt="pip" class="team-vector tv-000">
+
+                            <h3 class="sit tis">UserName</h3>
+                            <p class="sip pis">Business Developer</p>
+                        </div>
+
+                    </div>
                 </div>
-                <div class="si-1 tu">
-                    <img src="team/Vector@1x.png" alt="pip" class="team-vector tv-0" >
-
-                    <img src="team/Vector 24@1x.png" alt="pip" class="team-vector tv-1" >
-                    <img src="team/Vector 25@1x.png" alt="pip" class="team-vector tv-2" >
-
-                    <img src="team/jake.png" alt="i1" class="sico-1 tui">
-                    <img src="team/Vector 26.png" alt="pip" class="team-vector tv-000" >
-
-                <h3 class="sit tis">UserName</h3>
-                <p class="sip pis">Business Developer</p>
-                </div>
-                <div class="si-1 tu">
-                    <img src="team/Vector@1x.png" alt="pip" class="team-vector tv-0" >
-
-                    <img src="team/Vector 24@1x.png" alt="pip" class="team-vector tv-1" >
-                    <img src="team/Vector 25@1x.png" alt="pip" class="team-vector tv-2" >
-
-                    <img src="team/ben.png" alt="i1" class="sico-1 tui">
-                    <img src="team/Vector 26.png" alt="pip" class="team-vector tv-000" >
-
-                <h3 class="sit tis">UserName</h3>
-                <p class="sip pis">Business Developer</p>
-                </div>
-                <div class="si-1 tu">
-                    <img src="team/Vector@1x.png" alt="pip" class="team-vector tv-0" >
-
-                    <img src="team/Vector 24@1x.png" alt="pip" class="team-vector tv-1" >
-                    <img src="team/Vector 25@1x.png" alt="pip" class="team-vector tv-2" >
-
-                    <img src="team/christi.png" alt="i1" class="sico-1 tui">
-                    <img src="team/Vector 26.png" alt="pip" class="team-vector tv-000" >
-
-                <h3 class="sit tis">UserName</h3>
-                <p class="sip pis">Business Developer</p>
-                </div>
-                
             </div>
-            </div>
-        </div>
-        <div class="team-mem-2">
-            
-            <div class="sub-tem-1">
+            <div class="team-mem-2">
+
+                <div class="sub-tem-1">
                     <h2 class="about-text">
                         <span class="about-text-1">&mdash; &nbsp; Company Skills</span>
                         <span class="about-text-2">We Have Exprerience for Business Planning</span>
-                        <span class="about-text-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus in a cumque laudantium aliquid, sint, temporibus, odit corrupti culpa laboriosam magni aperiam voluptate debitis commodi eaque tempore repellendus modi quo!</span>
-                        <span class="about-text-4">Unknown Printer Book a Gallary of type and scramblled it to make a type specimen book</span>
+                        <span class="about-text-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus in a
+                            cumque laudantium aliquid, sint, temporibus, odit corrupti culpa laboriosam magni aperiam
+                            voluptate debitis commodi eaque tempore repellendus modi quo!</span>
+                        <span class="about-text-4">Unknown Printer Book a Gallary of type and scramblled it to make a
+                            type specimen book</span>
                     </h2>
-               
-                <div class="main-header-button">
-                
-                <button class="btn btn-2">
-                    Learn More
-                   </button>
+
+                    <div class="main-header-button">
+
+                        <button class="btn btn-2">
+                            Learn More
+                        </button>
+                    </div>
+
+
                 </div>
-               
-                
-            </div>
-            <div class="sub-tem-2">
-               <div class="strategy-1">
+                <div class="sub-tem-2">
+                    <div class="strategy-1">
 
-                <div class="circle">
-                    <div class="mask full">
-                      <div class="fill"></div>
-                    </div>
-                    <div class="mask half">
-                      <div class="fill"></div>
-                    </div>
-                    
-                     <div class="inside-circle"><span>Business Strategy</span> </div>
-                  </div>
-                  <h3 class="bs-head">Business Strategy</h3>
+                        <div class="circle">
+                            <div class="mask full">
+                                <div class="fill"></div>
+                            </div>
+                            <div class="mask half">
+                                <div class="fill"></div>
+                            </div>
 
-               </div>
-               <div class="strategy-2">
+                            <div class="inside-circle"><span>Business Strategy</span> </div>
+                        </div>
+                        <h3 class="bs-head">Business Strategy</h3>
 
-                <div class="circle">
-                    <div class="mask full">
-                      <div class="fill"></div>
                     </div>
-                    <div class="mask half">
-                      <div class="fill"></div>
-                    </div>
-                    <div class="inside-circle"><span>Finencial Planning</span> </div>
-                  </div>
-                  <h3 class="bs-head">Finencial Planning</h3>
-                </div>
-            <div class="strategy-3">
-                <div class="circle">
-                    <div class="mask full">
-                      <div class="fill"></div>
-                    </div>
-                    <div class="mask half">
-                      <div class="fill"></div>
-                    </div>
-                    <div class="inside-circle"><span>Marketing Strategy</span> </div>
-                  </div>
-                  <h3 class="bs-head">Marketing Strategy</h3>
+                    <div class="strategy-2">
 
-            </div>
-            <div class="strategy-4">
-
-                <div class="circle">
-                    <div class="mask full">
-                      <div class="fill"></div>
+                        <div class="circle">
+                            <div class="mask full">
+                                <div class="fill"></div>
+                            </div>
+                            <div class="mask half">
+                                <div class="fill"></div>
+                            </div>
+                            <div class="inside-circle"><span>Finencial Planning</span> </div>
+                        </div>
+                        <h3 class="bs-head">Finencial Planning</h3>
                     </div>
-                    <div class="mask half">
-                      <div class="fill"></div>
-                    </div>
-                    <div class="inside-circle"><span>Relationship Building</span> </div>
-                  </div>
-                  <h3 class="bs-head">Relationship Building</h3>
+                    <div class="strategy-3">
+                        <div class="circle">
+                            <div class="mask full">
+                                <div class="fill"></div>
+                            </div>
+                            <div class="mask half">
+                                <div class="fill"></div>
+                            </div>
+                            <div class="inside-circle"><span>Marketing Strategy</span> </div>
+                        </div>
+                        <h3 class="bs-head">Marketing Strategy</h3>
 
-            </div>
+                    </div>
+                    <div class="strategy-4">
+
+                        <div class="circle">
+                            <div class="mask full">
+                                <div class="fill"></div>
+                            </div>
+                            <div class="mask half">
+                                <div class="fill"></div>
+                            </div>
+                            <div class="inside-circle"><span>Relationship Building</span> </div>
+                        </div>
+                        <h3 class="bs-head">Relationship Building</h3>
+
+                    </div>
 
                     <!-- <div class="circle">
                         <div class="mask full">
@@ -489,226 +509,239 @@
                         <div class="inside-circle"> </div>
                       </div> -->
 
-                      
-                
+
+
+                </div>
+
+
+            </div>
             </div>
 
+        </section>
+        <section class="advisor-section">
+            <div class="advisor-part-1">
+                <div class="avp-1-1">
+                    <img src="advisor/“@1x.png" alt="fff" class="comma">
+                    <img src="advisor/joseph.png" alt="js" class="joseph composition">
+                    <img src="advisor/jake.png" alt="js" class="jake composition">
 
-        </div>
-    </div>
+                </div>
 
-</section>
-<section class="advisor-section">
-    <div class="advisor-part-1">
-        <div class="avp-1-1">
-            <img src="advisor/“@1x.png" alt="fff" class="comma">
-            <img src="advisor/joseph.png" alt="js" class="joseph">
-            <img src="advisor/jake.png" alt="js" class="jake">
-
-        </div>
-
-    </div>
-    <div class="advisor-part-2">
-         <div class="sub-tem-1">
-            <h2 class="about-text">
-                <span class="about-text-1">&mdash; &nbsp; Meet Our Advisors</span>
-                <span class="about-text-2">We Have Exprerience Team Members</span>
-                <span class="about-text-3 adv-text-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus in a cumque laudantium aliquid, sint, temporibus, odit corrupti culpa laboriosam magni aperiam voluptate debitis commodi eaque tempore repellendus modi quo!</span>
-                <span class="about-text-4 adv-text-4">Unknown Printer Book a Gallary of type and scramblled it to make a type specimen book.</span>
-            </h2>
-       <div class="adv-beforeend">
-           <figure class="jakefigu">
-               <img src="advisor/jake.png" alt="hghghg" class="jakefig">
-               <h3 class="fig-cap">
-                   <span class="adv-span-1">Richard E Marrisona</span>
-                   <span class="adv-span-2">Ceo and Founder</span>
-
-               </h3>
-           </figure>
-       </div>
-       <div class="adv-end-arr">
-           <a href="#" class="rightarr">&rarr;</a>
-           <a href="#" class="leftarr">&larr;</a>
-
-       </div>
-       
-        
-    </div> 
-    </div>
-    <img src="advisor/Union@1x-2.png" alt="ffgfg" class="adi-1">
-    <img src="advisor/Union@1x-4.png" alt="ffgfg" class="adi-2">
-
-</section>
-<section class="article-section">
-    <div class="article-head">
-        <button class="logobtn">Logo</button><button class="logobtn">Logo</button><button class="logobtn logobtn-m">Logo</button><button class="logobtn">Logo</button><button class="logobtn">Logo</button>
-    </div>
-    <div class="article-foot">
-        <div class="article-foot-1">
-            <h2 class="afoot-text">
-                <span class="afoot-text-1">&mdash; &nbsp; Important Articles
-                </span>
-                <span class="afoot-text-2">Something Know Our
-                </span>
-                <span class="afoot-text-2">Latest News and Blogs 
-                </span>
-            </h2>
-            <div class="main-header-button">
-              
-                <button class="btn btn-2">
- View All News                   </button>
             </div>
-        </div>
-        <div class="article-foot-2">
-            <div class="article-features">
-                <img src="article/jason1.png" alt="vdbsdb" class="afi">
-            <h3 class="article-text">
-                <span class="article-text-1">
-                    <img src="article/calendar-outline.svg" alt="calendarsvg">
-                &nbsp; 29 Mar 2022</span>
-                <span class="article-text-2">
-How Performance Visibility
-                </span>
-                <span class="article-text-2">
-                    With GitLab CI And Hood
-                </span>
+            <div class="advisor-part-2">
+                <div class="sub-tem-1">
+                    <h2 class="about-text">
+                        <span class="about-text-1">&mdash; &nbsp; Meet Our Advisors</span>
+                        <span class="about-text-2">We Have Exprerience Team Members</span>
+                        <span class="about-text-3 adv-text-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            Minus in a cumque laudantium aliquid, sint, temporibus, odit corrupti culpa laboriosam magni
+                            aperiam voluptate debitis commodi eaque tempore repellendus modi quo!</span>
+                        <span class="about-text-4 adv-text-4">Unknown Printer Book a Gallary of type and scramblled it
+                            to make a type specimen book.</span>
+                    </h2>
+                    <div class="adv-beforeend">
+                        <figure class="jakefigu">
+                            <img src="advisor/jake.png" alt="hghghg" class="jakefig">
+                            <h3 class="fig-cap">
+                                <span class="adv-span-1">Richard E Marrisona</span>
+                                <span class="adv-span-2">Ceo and Founder</span>
 
-                <span class="article-text-3">
-Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos a unde iure debitis corporis, impedit exercitationem illo autem nam quae fugit at deleniti.                </span>
-            </h3>
-
-            <a class="lmbtn" href="#">Learn More &rarr;</a>
-            </div>
-            <div class="article-features article-features-m">
-                <img src="article/smartworks2.png" alt="vdbsdb" class="afi">
-            <h3 class="article-text">
-                <span class="article-text-1">
-                    <img src="article/calendar-outline.svg" alt="calendarsvg">
-                &nbsp; 29 Mar 2022</span>
-                <span class="article-text-2">
-How Performance Visibility
-                </span>
-                <span class="article-text-2">
-                    With GitLab CI And Hood
-                </span>
-
-                <span class="article-text-3">
-Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos a unde iure debitis corporis, impedit exercitationem illo autem nam quae fugit at deleniti.                </span>
-            </h3>
-
-            <a class="lmbtn lmbtn-m" href="#">Learn More &rarr;</a>
-            </div>
-
-            <div class="article-features">
-                <img src="article/jason3.png" alt="vdbsdb" class="afi">
-            <h3 class="article-text">
-                <span class="article-text-1">
-                    <img src="article/calendar-outline.svg" alt="calendarsvg">
-                &nbsp; 29 Mar 2022</span>
-                <span class="article-text-2">
-How Performance Visibility
-                </span>
-                <span class="article-text-2">
-                    With GitLab CI And Hood
-                </span>
-
-                <span class="article-text-3">
-Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos a unde iure debitis corporis, impedit exercitationem illo autem nam quae fugit at deleniti.                </span>
-            </h3>
-
-            <a class="lmbtn" href="#">Learn More &rarr;</a>
-            </div>
-        </div>
-    </div>
-</section>
-    </main>
-    <footer>
-<div class="footer-h">
-    <div class="footer-h-1">
-        <h3 class="footer-h-text">
-<span class="footer-h-text-1">
-Company
-</span>
-<span class="footer-h-text-2">
-    Lorem ipsum is simply dummy text <br>
-    of the printing and typesetting
-</span>
-        </h3>
-    </div>
-
-    <div class="footer-h-2">
-        <h3 class="footer-h-text">
-            <span class="footer-h-text-1 fht-2">
-            Subscribe Our News Letters
-            </span>
-            <input type="email" class="email" name="email" placeholder="Enter Your Email">
-                    </h3>
-            <button type="submit" class="btn btn-2">
-                        Subscribe Now
-            </button>            
-    </div>
-</div>
-<div class="footer-b">
-    <div class="footer-middle-items fmi-1">
-<h3>Quick Links</h3>
-        <ul class="unorderdlist">
-<li class="footlist"><a href="#" class="footlink">Company History</a></li>
-<li class="footlist"><a href="#" class="footlink">Latest News and Blog</a></li>
-<li class="footlist"><a href="#" class="footlink">Popular Services</a></li>
-<li class="footlist"><a href="#" class="footlink">Business and Consulting</a></li>
-<li class="footlist"><a href="#" class="footlink">Finencial Planning</a></li>
-    </ul>
-</div>
-
-<div class="footer-middle-items fmi-2">
-    <h3>Company </h3>
-            <ul class="unorderdlist">
-    <li class="footlist"><a href="#" class="footlink">About Company</a></li>
-    <li class="footlist"><a href="#" class="footlink">World Wide Clients</a></li>
-    <li class="footlist"><a href="#" class="footlink">Happy Peoples</a></li>
-    <li class="footlist"><a href="#" class="footlink">Winning Awards</a></li>
-    <li class="footlist"><a href="#" class="footlink">Company Statics</a></li>
-        </ul>
-    </div>
-
-    <div class="footer-middle-items fmi-3">
-        <h3>Contact Us </h3>
-                <ul class="unorderdlist">
-        <li class="footlist"><a href="#" class="footlink">Call: +8800917 009887</a></li>
-        <li class="footlist"><a href="#" class="footlink">Email: Support@email.com</a></li>
-        <li class="footlist"><a href="#" class="footlink">Address: 123/A, Brooklyn Street,<br>New York USA</a></li>
-            </ul>
-        </div> 
-        <div class="footer-middle-items fmi-4">
-            <h3>Follow Us On Instagram </h3>
-                    <div class="image-column">
-<img src="footer/1.png" alt="hhh" class="imgclg-1 imgc">
-<img src="footer/2.png" alt="hhh" class="imgclg-2 imgc">
-<img src="footer/3.png" alt="hhh" class="imgclg-3 imgc">
-<img src="footer/2-1.png" alt="hhh" class="imgclg-4 imgc">
-<img src="footer/2.png" alt="hhh" class="imgclg-5 imgc">
-<img src="footer/2-6.png" alt="hhh" class="imgclg-6 imgc">
+                            </h3>
+                        </figure>
+                    </div>
+                    <div class="adv-end-arr">
+                        <a href="#article" class="rightarr">&rarr;</a>
+                        <a href="#" class="leftarr">&larr;</a>
 
                     </div>
-            </div> 
 
-</div>
-<div class="footer-f">
-    <div class="footer-last-link">
-        <a href="#" class="footer-uparr"><span>&uarr;</span></a>
 
-    </div>
-    <div class="end-txt">
-<p class="txt-1">© 2012-2022 <span>Company</span>  </p>
-<div class="txt-2">
-    <a href="#">Terms</a>.
-    <a href="#">Privacy</a>.
-    <a href="#">Program</a>.
-    <a href="#">Policy</a>.
-</div>
-    </div>
+                </div>
+            </div>
+            <img src="advisor/Union@1x-2.png" alt="ffgfg" class="adi-1">
+            <img src="advisor/Union@1x-4.png" alt="ffgfg" class="adi-2">
 
-</div>
+        </section>
+        <section class="article-section" id="article">
+            <div class="article-head">
+                <button class="logobtn">Logo</button><button class="logobtn">Logo</button><button
+                    class="logobtn logobtn-m">Logo</button><button class="logobtn">Logo</button><button
+                    class="logobtn">Logo</button>
+            </div>
+            <div class="article-foot">
+                <div class="article-foot-1">
+                    <h2 class="afoot-text">
+                        <span class="afoot-text-1">&mdash; &nbsp; Important Articles
+                        </span>
+                        <span class="afoot-text-2">Something Know Our
+                        </span>
+                        <span class="afoot-text-2">Latest News and Blogs
+                        </span>
+                    </h2>
+                    <div class="main-header-button">
+
+                        <button class="btn btn-2">
+                            View All News </button>
+                    </div>
+                </div>
+                <div class="article-foot-2">
+                    <div class="article-features">
+                        <img src="article/jason1.png" alt="vdbsdb" class="afi">
+                        <h3 class="article-text">
+                            <span class="article-text-1">
+                                <img src="article/calendar-outline.svg" alt="calendarsvg">
+                                &nbsp; 29 Mar 2022</span>
+                            <span class="article-text-2">
+                                How Performance Visibility
+                            </span>
+                            <span class="article-text-2">
+                                With GitLab CI And Hood
+                            </span>
+
+                            <span class="article-text-3">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos a unde iure debitis
+                                corporis, impedit exercitationem illo autem nam quae fugit at deleniti. </span>
+                        </h3>
+
+                        <a class="lmbtn" href="#">Learn More &rarr;</a>
+                    </div>
+                    <div class="article-features article-features-m">
+                        <img src="article/smartworks2.png" alt="vdbsdb" class="afi">
+                        <h3 class="article-text">
+                            <span class="article-text-1">
+                                <img src="article/calendar-outline.svg" alt="calendarsvg">
+                                &nbsp; 29 Mar 2022</span>
+                            <span class="article-text-2">
+                                How Performance Visibility
+                            </span>
+                            <span class="article-text-2">
+                                With GitLab CI And Hood
+                            </span>
+
+                            <span class="article-text-3">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos a unde iure debitis
+                                corporis, impedit exercitationem illo autem nam quae fugit at deleniti. </span>
+                        </h3>
+
+                        <a class="lmbtn lmbtn-m" href="#">Learn More &rarr;</a>
+                    </div>
+
+                    <div class="article-features">
+                        <img src="article/jason3.png" alt="vdbsdb" class="afi">
+                        <h3 class="article-text">
+                            <span class="article-text-1">
+                                <img src="article/calendar-outline.svg" alt="calendarsvg">
+                                &nbsp; 29 Mar 2022</span>
+                            <span class="article-text-2">
+                                How Performance Visibility
+                            </span>
+                            <span class="article-text-2">
+                                With GitLab CI And Hood
+                            </span>
+
+                            <span class="article-text-3">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos a unde iure debitis
+                                corporis, impedit exercitationem illo autem nam quae fugit at deleniti. </span>
+                        </h3>
+
+                        <a class="lmbtn" href="#">Learn More &rarr;</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-h">
+            <div class="footer-h-1">
+                <h3 class="footer-h-text">
+                    <span class="footer-h-text-1">
+                        Company
+                    </span>
+                    <span class="footer-h-text-2">
+                        Lorem ipsum is simply dummy text <br>
+                        of the printing and typesetting
+                    </span>
+                </h3>
+            </div>
+
+            <div class="footer-h-2">
+                <h3 class="footer-h-text">
+                    <span class="footer-h-text-1 fht-2">
+                        Subscribe Our News Letters
+                    </span>
+                    <input type="email" class="email" name="email" placeholder="Enter Your Email">
+                </h3>
+                <button type="submit" class="btn btn-2">
+                    Subscribe Now
+                </button>
+            </div>
+        </div>
+        <div class="footer-b">
+            <div class="footer-middle-items fmi-1">
+                <h3>Quick Links</h3>
+                <ul class="unorderdlist">
+                    <li class="footlist"><a href="#" class="footlink">Company History</a></li>
+                    <li class="footlist"><a href="#" class="footlink">Latest News and Blog</a></li>
+                    <li class="footlist"><a href="#" class="footlink">Popular Services</a></li>
+                    <li class="footlist"><a href="#" class="footlink">Business and Consulting</a></li>
+                    <li class="footlist"><a href="#" class="footlink">Finencial Planning</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-middle-items fmi-2">
+                <h3>Company </h3>
+                <ul class="unorderdlist">
+                    <li class="footlist"><a href="#" class="footlink">About Company</a></li>
+                    <li class="footlist"><a href="#" class="footlink">World Wide Clients</a></li>
+                    <li class="footlist"><a href="#" class="footlink">Happy Peoples</a></li>
+                    <li class="footlist"><a href="#" class="footlink">Winning Awards</a></li>
+                    <li class="footlist"><a href="#" class="footlink">Company Statics</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-middle-items fmi-3">
+                <h3>Contact Us </h3>
+                <ul class="unorderdlist">
+                    <li class="footlist"><a href="#" class="footlink">Call: +8800917 009887</a></li>
+                    <li class="footlist"><a href="#" class="footlink">Email: Support@email.com</a></li>
+                    <li class="footlist"><a href="#" class="footlink">Address: 123/A, Brooklyn Street,<br>New York
+                            USA</a></li>
+                </ul>
+            </div>
+            <div class="footer-middle-items fmi-4">
+                <h3>Follow Us On Instagram </h3>
+                <div class="image-column">
+                    <img src="footer/1.png" alt="hhh" class="imgclg-1 imgc">
+                    <img src="footer/2.png" alt="hhh" class="imgclg-2 imgc">
+                    <img src="footer/3.png" alt="hhh" class="imgclg-3 imgc">
+                    <img src="footer/2-1.png" alt="hhh" class="imgclg-4 imgc">
+                    <img src="footer/2.png" alt="hhh" class="imgclg-5 imgc">
+                    <img src="footer/2-6.png" alt="hhh" class="imgclg-6 imgc">
+
+                </div>
+            </div>
+
+        </div>
+        <div class="footer-f">
+            <div class="footer-last-link">
+                <a href="#" class="footer-uparr"><span>&uarr;</span></a>
+
+            </div>
+            <div class="end-txt">
+                <p class="txt-1">© 2012-2022 <span>Company</span> </p>
+                <div class="txt-2">
+                    <a href="#">Terms</a>.
+                    <a href="#">Privacy</a>.
+                    <a href="#">Program</a>.
+                    <a href="#">Policy</a>.
+                </div>
+            </div>
+
+        </div>
 
 
     </footer>
+
+</body>
+
+</html>
